@@ -70,3 +70,24 @@ Anyone can contribute to this repository. If you want to contribute, please foll
 <img width="957" alt="image" src="https://user-images.githubusercontent.com/86466557/209962587-b256cec1-8854-4bd4-b33e-a961946615d8.png">
 
 
+# Triangle_3D
+
+# Description (Other mini project for learning purpose)
+A triangle mesh is a type of 3D computer graphics model that is composed of a set of triangles. It is often used to represent the surface of a 3D object or a 3D environment. In a triangle mesh, each vertex (or corner) of the triangle is represented by a 3D coordinate in space, and each triangle is defined by the three vertices that make up its corners. The edges of the triangles are called edges, and the area inside the triangle is called a face.
+
+Triangle meshes are used in a variety of applications, including computer-aided design (CAD), 3D printing, video games, and computer graphics. They are efficient to represent and process, as they require fewer vertices than other types of meshes such as quadrilateral meshes. However, they are not as smooth as other types of meshes and may produce visible edges or "stepping" when viewed at a distance. There are various algorithms and techniques for creating, modifying, and rendering triangle meshes, including mesh smoothing, mesh optimization, and mesh simplification.
+
+# Procedure
+1) Build your Scene and Camera
+2) Create a Pyramid with a color and add to the Scene. Lets assume our height is 100 and our width (hypotenuse) at the base is 50.  
+3) Create and transform a Pyramid using DrawMode FILL and it can be translated and rotated like a primitive
+4) Add color and a Mouse Handler for Rotations
+5) Calculate the angle when the button has been pressed
+6) Create a viewable MeshView to be added to the scene and add a TriangleMesh to a 3D scene you need a MeshView container object which allows you to control how the TriangleMesh is rendered
+
+# Note: 
+This application does not have FXML file as all elements were created using only JAVA code.
+
+# Screenshot
+<img width="955" alt="image" src="https://user-images.githubusercontent.com/86466557/209967658-f0905fac-9dfe-476b-bd79-b7ef64b601ba.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/86466557/209967751-2a748626-c4fa-4976-a66c-bb3f2edff418.png">
