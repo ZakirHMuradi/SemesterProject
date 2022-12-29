@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.caloriescalculator.Controller">
+    <children>
+        <AnchorPane prefHeight="345.0" prefWidth="415.0" styleClass="background" stylesheets="@styles.css">
+            <children>
+                <VBox layoutX="229.0" layoutY="55.0" prefHeight="179.0" prefWidth="150.0" spacing="10.0">
+                    <children>
+                        <TextField fx:id="ageInput" promptText="Ages 15 - 60" />
+                        <TextField fx:id="weightInput" promptText="                                    kg" />
+                        <TextField fx:id="heightInput" promptText="                                   cm" />
+                        <ChoiceBox fx:id="genderInput" prefHeight="28.0" prefWidth="77.0" styleClass="button-container" stylesheets="@styles.css">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></ChoiceBox>
+                        <ChoiceBox fx:id="activityLevelInput" prefHeight="28.0" prefWidth="98.0" styleClass="button-container" stylesheets="@styles.css">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></ChoiceBox>
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER_LEFT" layoutX="69.0" layoutY="51.0" spacing="10.0" styleClass="top-border" stylesheets="@styles.css">
+                    <children>
+                        <Label stylesheets="@styles.css" text="Enter Age" textFill="#ccbcbc" textOverrun="CLIP">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                        <Label text="Enter Weight" textFill="#ccbcbc">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                        <Label text="Enter Height" textFill="#ccbcbc">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                        <Label text="Sex" textFill="#ccbcbc">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                        <Label text="Activity Level" textFill="#ccbcbc">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                    </children>
+                </VBox>
+                <TextArea fx:id="resultTextArea" blendMode="SCREEN" layoutY="289.0" opacity="0.82" prefHeight="112.0" prefWidth="478.0" promptText="The Result will be displayed here!!!" styleClass="background" stylesheets="@styles.css">
+                    <padding>
+                        <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+                    </padding>
+               <font>
+                  <Font size="18.0" />
+               </font>
+                </TextArea>
+                <Button fx:id="calculateButton" blendMode="ADD" layoutX="159.0" layoutY="238.0" mnemonicParsing="false" onAction="#calculateButtonClicked" prefHeight="17.0" prefWidth="126.0" styleClass="button-container" stylesheets="@styles.css" text="Click here!!!" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <ImageView fitHeight="42.0" fitWidth="67.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" styleClass="img">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="149.0" layoutY="15.0" prefHeight="17.0" prefWidth="159.0" text="Burn Colaries not fuels" textAlignment="CENTER" textFill="#ccbcbc">
+               <font>
+                  <Font name="Baskerville Old Face" size="12.0" />
+               </font>
+            </Label>
+            <HBox layoutX="269.0" layoutY="3.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="42.0" prefWidth="205.0" spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fitHeight="24.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@weight.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="39.0">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@exercise.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button mnemonicParsing="false">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@food.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            </children>
+        </AnchorPane>
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>

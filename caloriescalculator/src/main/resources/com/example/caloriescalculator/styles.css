@@ -1,0 +1,34 @@
+.background{
+    -fx-background-color: #5271FF;
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1) , 5.0, 0.0, 0.0, 5.0);
+}
+.text-area{
+    -fx-background-color: #99c070;
+    -fx-background-radius: 4;
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1) , 5.0, 0.0, 0.0, 5.0);
+}
+.button-container{
+     -fx-background-color: #c7c5ae;
+     -fx-background-radius: 50;
+     -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1) , 5.0, 0.0, 0.0, 5.0);
+     -fx-border-width: 1;
+     -fx-border-color:#B8B9BB;
+     -fx-border-radius: 50;
+}
+
+.top-border{
+    -fx-border-width: 1 0 1 0;
+    -fx-border-color: #474949;
+
+}
+.choice-box{
+    -fx-background-color: #e3dfd4;
+    -fx-background-radius: 50;
+    -fx-effect: dropShadow(three-pass-box, rgba(107, 94, 94, 0.1), 5.0, 0.0, 0.0, 5.0);
+    -fx-border-width: 1;
+    -fx-border-color: #868686;
+    -fx-border-radius: 50;
+}
+.img{
+    -fx-background-radius: 20;
+}
