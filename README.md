@@ -66,6 +66,11 @@ This is just a rough estimate, and your actual calorie needs may be different de
 <img width="959" alt="image" src="https://user-images.githubusercontent.com/86466557/209962472-128f3665-172a-41d0-9bf0-b6e3ae15b799.png">
 <img width="957" alt="image" src="https://user-images.githubusercontent.com/86466557/209962587-b256cec1-8854-4bd4-b33e-a961946615d8.png">
 
+# List of features to be add in Phase 2
+
+1) The protype will look as below 
+<img width="388" alt="image" src="https://user-images.githubusercontent.com/86466557/209974189-26396395-3396-4427-903a-cc4160f23e76.png">
+2) Also specify how much calories needed in specific food items
 
 # Triangle_3D
 
