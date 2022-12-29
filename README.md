@@ -1,5 +1,14 @@
 # UCA Semester Project
-# Summary
+
+# Purpose of the App
+The purpose of a calorie calculator is to help you estimate the number of calories you need per day to maintain, gain, or lose weight.
+Calories are a unit of energy that we get from the food and drinks we consume. The number of calories we need per day depends on several factors, including our age, gender, weight, height, and activity level.
+
+If we consume more calories than we need, our bodies will store the excess energy as fat, leading to weight gain. If we consume fewer calories than we need, our bodies will use stored fat as energy, leading to weight loss.
+A calorie calculator can help you determine how many calories you need per day based on your individual characteristics and goals. It can also help you track your daily calorie intake and make sure you are getting the right amount of energy from your diet.
+
+
+# How it works
 Determine your basal metabolic rate (BMR), which is the number of calories your body needs to function at rest. You can use a formula or an online calculator to estimate your BMR.
 Consider your activity level. Are you sedentary, lightly active, moderately active, very active, or extremely active?
 Multiply your BMR by your activity level factor to determine your total daily energy expenditure (TDEE). There are different factors for each activity level.
@@ -51,18 +60,6 @@ Your TDEE would then be 1462 x 1.2 = 1754 calories/day.
 
 This is just a rough estimate, and your actual calorie needs may be different depending on a variety of factors such as your age, body composition, and goals. It's always a good idea to consult with a healthcare professional or a registered dietitian to determine the best calorie intake for you.
 
-# Contributions
-Anyone can contribute to this repository. If you want to contribute, please follow the steps below:
-1)  Fork this repository
-2)  Clone the forked repository
-3)  Create a new branch
-4)  Make changes to the code
-5)  Commit the changes
-6)  Push the changes to the forked repository
-7)  Create a pull request
-8)  Wait for the pull request to be merged
-9)  Celebrate your contribution to this repository
-10) Repeat steps 1-9
 
 # ScreenShots
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/86466557/209962779-2325be9f-0900-407e-a7a6-9b7f233e0e79.png">
@@ -91,3 +88,22 @@ This application does not have FXML file as all elements were created using only
 # Screenshot
 <img width="955" alt="image" src="https://user-images.githubusercontent.com/86466557/209967658-f0905fac-9dfe-476b-bd79-b7ef64b601ba.png">
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/86466557/209967751-2a748626-c4fa-4976-a66c-bb3f2edff418.png">
+
+# Contributions
+Anyone can contribute to this repository. If you want to contribute, please follow the steps below:
+1)  Fork this repository
+2)  Clone the forked repository
+3)  Create a new branch
+4)  Make changes to the code
+5)  Commit the changes
+6)  Push the changes to the forked repository
+7)  Create a pull request
+8)  Wait for the pull request to be merged
+9)  Celebrate your contribution to this repository
+10) Repeat steps 1-9
+
+
+# Contact
+Any questions or suggestions? Feel free to contact me at
+
+https://www.linkedin.com/in/zakir-hussain-muradi-uca/
